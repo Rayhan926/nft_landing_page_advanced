@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Syncopate-Regular';
+    /* src: url('./syncopate_regular/Syncopate-Regular.woff'), format('woff');
+    src: url('./syncopate_regular/Syncopate-Regular.eot'), format('eot'); */
+    src: url('./syncopate_regular/Syncopate-Regular.ttf'), format('ttf');
+}
+@font-face {
+    font-family: 'Syncopate-Bold';
+    /* src: url('./syncopate_bold/Syncopate-Bold.woff'), format('woff');
+    src: url('./syncopate_bold/Syncopate-Bold.eot'), format('eot'); */
+    src: url('./syncopate_bold/Syncopate-Bold.ttf'), format('ttf');
+}
