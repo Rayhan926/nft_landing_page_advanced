@@ -10,7 +10,7 @@ function OwnFutureOfGamingSection() {
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'top'
             }}>
-                <h2 className="heading_md mb-6">OWN THE FUTURE OF GAMING</h2>
+                <h2 className="heading_md mb-6 text-center px-10 md:px-0">OWN THE FUTURE OF GAMING</h2>
                 <Button text="Sign up for Alpha" className="via-[#00FFFF] to-black text-white" icon={<MdChevronRight size={22} />} />
             </div>
         </section>

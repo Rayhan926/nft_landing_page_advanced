@@ -2,20 +2,15 @@ import BluryCircle from "./BluryCircle"
 
 function BackersSection() {
     return (
-        <section className="py-28 relative" style={{
-            backgroundImage: "url('/img/deco baked by.png')",
-            backgroundSize: '100%',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center'
-        }} >
-            <BluryCircle className="bg-[#004EFE] blur-[200px]" />
+        <section className="md:py-28 relative backer_bg_mobile md:backer_bg_desktop" >
+            <BluryCircle className="bg-[#004EFE] blur-[180px] top-0 md:top-1/2 translate-y-0 md:-translate-y-1/2" />
             <div className="container text-center flex flex-col items-center">
                 <h2 className="heading_md" >The Backers</h2>
                 <h2 className="spacing_p mt-3 mb-8" >THEY Back {'&'} Trust us</h2>
             </div>
 
             <div className="container mt-10">
-                <div className="w-[80%] mx-auto grid grid-cols-3 gap-5">
+                <div className="w-[70%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
                     <Box imgSrc="/img/0587d387-logo-dozen 1.svg" />
                     <Box color="#00AFFF" imgSrc="/img/wayra-logo.svg" />
                     <Box imgSrc="/img/Masterbrand-Logo_color 1.svg" />

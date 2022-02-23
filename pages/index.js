@@ -13,13 +13,13 @@ function Home() {
     <div>
       <Header />
       <HeroSection />
-      {/* <BuySellMintSection /> */}
+      <BuySellMintSection />
       <GamingGuild />
       <TeamSection />
-      {/* <BackersSection /> */}
-      {/* <PastMentionSection /> */}
-      {/* <OwnFutureOfGamingSection /> */}
-      {/* <Footer /> */}
+      <BackersSection />
+      <PastMentionSection />
+      <OwnFutureOfGamingSection />
+      <Footer />
     </div>
   )
 }
