@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Avalance from "../icons/Avalance";
 import Binance from "../icons/Binance";
 import BuySellCards from "../icons/BuySellCards";
@@ -17,7 +18,7 @@ function BuySellMintSection() {
                 <h2 className="heading_md text-center" >buy, sell {'&'} mint</h2>
                 <p className="spacing_p text-center mt-3" >A marketplace for the gaming community</p>
 
-                <div className="hidden md:block">
+                <div className="sr-only md:not-sr-only">
                     <VisibleInMobile />
                 </div>
 
@@ -30,21 +31,32 @@ function BuySellMintSection() {
                     }}
                     className="bg-center md:!hidden" >
 
-                    <div className="px-6 mb-16">
+                    <div className="px-9 mb-16">
                         <Box color="#00FFFF" title="GAME SPECIFIC EXPERIENCE" description="We provide a unique and inmersive experience for each of the listed games." />
                     </div>
 
                     <div className="flex justify-center mb-4" >
-                        <img src="/img/Group 3.png" alt="" />
+                        <Image width={326} height={632} src="/img/Group 3.png" alt="Group 3" />
                     </div>
-                    <div className="px-6 space-y-5">
+                    <div className="px-9 space-y-5">
                         <Box color="#EBFF00" title="scam prevention" description="We only list pre-screened  Game NFT Collections." />
                         <Box color="#CC6AFF" title="comunity rewards" description="Get rewards for trading & staking." />
                         <Box color="#00FF6E" title="LaunchPad" description="Launch your game with the right community" />
 
                     </div>
 
-                    <Avalance />
+                    <div className="flex flex-col items-center mt-10">
+                        <div>
+                            <Avalance />
+                        </div>
+                        <div>
+                            <Polygon />
+                        </div>
+                        <p className="spacing_p mb-3">and coming soon...</p>
+                        <div>
+                            <img src="/img/Group 1.svg" alt="" />
+                        </div>
+                    </div>
                 </div>
                 {/* Visible In Mobile --End-- */}
             </div>

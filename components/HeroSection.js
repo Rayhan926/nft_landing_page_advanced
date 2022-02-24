@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MdChevronRight } from 'react-icons/md';
 import BluryCircle from "./BluryCircle";
 import Button from './Button';
@@ -7,8 +8,8 @@ function HeroSection() {
         <section className="py-16 pt-36 md:pt-40 container" >
             <div className="grid grid-cols-1 md:grid-cols-[30%,40%,30%]">
                 {/* Left --Start-- */}
-                <div className="relative order-3 md:order-[unset]" >
-                    <img src="/img/Group 3-crop.png" alt="" className="md:-translate-x-14" />
+                <div className="relative order-3 md:order-[unset] md:-translate-x-14" >
+                    <Image width={516} height={441} src="/img/Group 3-crop.png" alt="" />
                     {/* <BluryCircle color="#00FF6E" /> */}
                 </div>
                 {/* Left --End-- */}
@@ -31,7 +32,9 @@ function HeroSection() {
 
                 {/* Right --Start-- */}
                 <div className="relative order-3 md:order-[unset]" >
-                    <img src="/img/Cards GAME ITEMS-crop.png" alt="" className="md:scale-[1.2] translate-y-8 origin-left" />
+                    <div className="md:scale-[1.1] translate-y-4 origin-left">
+                        <Image width={599} height={499} src="/img/Cards GAME ITEMS-crop.png" alt="" />
+                    </div>
                     <p className="spacing_p w-[60%] mx-auto rotate-[5deg] text-center translate-y-10 translate-x-5 md:translate-x-10" >Only pre-screened nft games</p>
                     {/* <BluryCircle color="#00FFFF" /> */}
                 </div>

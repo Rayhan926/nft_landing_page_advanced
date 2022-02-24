@@ -47,7 +47,7 @@ function Header() {
                             } md:opacity-100 md:pointer-events-auto`}
                     >
                         <ul
-                            className={`gap-6 font-medium text-white/80 bg-primary-900 pt-5 md:pt-0 w-[80%] md:w-auto md:flex h-full md:h-auto md:bg-transparent -translate-x-full duration-200 ${showSidebar ? 'translate-x-0' : ''
+                            className={`gap-6 font-medium text-white/80 pt-5 md:pt-0 w-[80%] md:w-auto md:flex h-full md:h-auto md:bg-transparent duration-200 ${showSidebar ? 'translate-x-0' : '-translate-x-full'
                                 } md:translate-x-0`}
                         >
                             <li>

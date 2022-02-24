@@ -57,7 +57,7 @@ body {
         @apply mx-auto max-w-full px-5 md:px-6 xl:max-w-[1280px];
     }
     .mobile_nav_gradient {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 80%, transparent 20%);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 80%, transparent 20%);
         --tw-backdrop-blur: blur(12px);
         backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
             var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate)

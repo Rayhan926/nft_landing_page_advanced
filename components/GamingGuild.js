@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MdChevronRight } from 'react-icons/md';
 import { SiDiscord } from 'react-icons/si';
 import BluryCircle from './BluryCircle';
@@ -21,7 +22,7 @@ function GamingGuild() {
                 <div className="container grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-32 px-10 md:px-5">
                     {/* Left Box --Start-- */}
                     <div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 gap-y-12 md:gap-y-16 relative text-center px-10 md:px-0">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 gap-y-12 md:gap-y-16 relative text-center md:text-left px-10 md:px-0">
                             <BluryCircle className="hidden md:block bg-soft-green blur-[180px] left-8 translate-x-0" />
                             <div>
                                 <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-green" >Dao</h4>
@@ -48,11 +49,15 @@ function GamingGuild() {
                     <div className="relative" >
                         <BluryCircle className="bg-soft-sky blur-[180px]" />
                         {/* Visible in desktop --Start-- */}
-                        <img src="/img/NFt cards responsive.svg" className="md:hidden" alt="NFT floating cards" />
+                        <div className="md:hidden" >
+                            <Image width={318} height={622} src="/img/NFt cards responsive.png" alt="NFT floating cards" />
+                        </div>
                         {/* Visible in desktop --Start-- */}
 
                         {/* Visible in desktop --End-- */}
-                        <img src="/img/NFT floating cards export.svg" alt="NFT floating cards" className="hidden md:block" />
+                        <div className="hidden md:block" >
+                            <Image src="/img/NFT floating cards export.png" width={669} height={569} alt="NFT floating cards" />
+                        </div>
                         {/* Visible in desktop --End-- */}
                     </div>
                     {/* Right Box --End-- */}

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { RiLinkedinFill } from 'react-icons/ri';
 function TeamCard({ imgSrc, title, subtitle }) {
     return (
@@ -10,9 +11,9 @@ function TeamCard({ imgSrc, title, subtitle }) {
             className="bg-no-repeat rounded-xl flex-col flex items-center space-y-3 h-[165px] md:w-[298px] md:h-[236px]" >
             <div className="relative flex flex-col items-center -mt-[75px] md:-mt-10">
                 <div className="w-[120px] h-[120px] md:w-[180px] md:h-[180px]">
-                    <img src={imgSrc} alt={title} className="w-full h-full object-cover" />
+                    <Image width={200} height={200} src={imgSrc} alt={title} className="w-full h-full object-cover" />
                 </div>
-                <a href="#" className="-mt-5" >
+                <a href="#" className="-mt-5 relative z-5" >
                     <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center text-white bg-[#0E76A8] hover:bg-[#03557a]" >
                         <RiLinkedinFill />
                     </div>

@@ -13,10 +13,10 @@ function TeamSection() {
                 </div>
                 <div className="team_bg_mobile md:team_bg_desktop pb-28" >
                     <div className="container px-2 md:px-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-24 md:gap-5 mt-16">
-                        <TeamCard imgSrc="/img/avatar1.svg" title="Lucas Leisner" subtitle="business" />
-                        <TeamCard imgSrc="/img/avatar2.svg" title="marc leisner" subtitle="business" />
-                        <TeamCard imgSrc="/img/avatar3.svg" title="sergio bravo" subtitle="tech" />
-                        <TeamCard imgSrc="/img/avatar4.svg" title="alba silva" subtitle="design" />
+                        <TeamCard imgSrc="/img/avatar1.png" title="Lucas Leisner" subtitle="business" />
+                        <TeamCard imgSrc="/img/avatar2.png" title="marc leisner" subtitle="business" />
+                        <TeamCard imgSrc="/img/avatar3.png" title="sergio bravo" subtitle="tech" />
+                        <TeamCard imgSrc="/img/avatar4.png" title="alba silva" subtitle="design" />
                     </div>
                 </div>
             </div>
