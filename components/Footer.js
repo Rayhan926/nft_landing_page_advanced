@@ -34,7 +34,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="mt-8" >
-                    <p className="text-white/40 font-inter" >©Gazoom copyright 2021. Gazoom S.L. All rights reserved</p>
+                    <p className="text-white/40 font-inter" >©Gazoom copyright 2022. Gazoom S.L. All rights reserved.</p>
                 </div>
             </div>
         </footer>

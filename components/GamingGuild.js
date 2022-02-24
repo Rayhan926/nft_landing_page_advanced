@@ -9,7 +9,9 @@ function GamingGuild() {
             <div className="container text-center">
                 <h2 className="heading_md" >Gaming Guild of Gazoomia</h2>
                 <h2 className="spacing_p mt-3 mb-8" >SUpport early {'&'} get Benefits</h2>
-                <Button text="Join our Discord!" className="via-[#5865F2] to-black text-white" startIcon={<SiDiscord />} />
+                <a href="https://gazoom.app.link/NFT/discord" target="_blank" rel="noreferrer">
+                    <Button text="Join our Discord!" className="via-[#5865F2] to-black text-white" startIcon={<SiDiscord />} />
+                </a>
             </div>
             <section style={{
                 backgroundImage: "url('/img/Decorations_Benefits.svg')",
@@ -27,7 +29,7 @@ function GamingGuild() {
                             <div>
                                 <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-yellow" >Reduced
                                     tRansaction fee</h4>
-                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Own your GGOG token and reduce your transaction fee</p>
+                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Own your GGOG token and reduce your transaction fee.</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-green" >Exclusisve

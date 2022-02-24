@@ -1,3 +1,4 @@
+import Head from "next/head"
 import BackersSection from "../components/BackersSection"
 import BuySellMintSection from "../components/BuySellMintSection"
 import Footer from "../components/Footer"
@@ -10,7 +11,10 @@ import TeamSection from "../components/TeamSection"
 
 function Home() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Gazoom | Gaming NFT Marketplace</title>
+      </Head>
       <Header />
       <HeroSection />
       <BuySellMintSection />
@@ -20,7 +24,7 @@ function Home() {
       <PastMentionSection />
       <OwnFutureOfGamingSection />
       <Footer />
-    </div>
+    </>
   )
 }
 
