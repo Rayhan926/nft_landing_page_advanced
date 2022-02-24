@@ -9,14 +9,14 @@ import Solana from "../icons/Solana";
 function BuySellMintSection() {
     return (
         <section style={{
-            backgroundImage: "url('/img/Line Decorations bg.png')",
+            backgroundImage: "url('/img/Line_Decorations_bg.svg')",
             backgroundSize: '100%',
             backgroundPosition: 'center'
         }}
             className="py-20 bg-no-repeat" >
             <div className="container">
                 <h2 className="heading_md text-center" >buy, sell {'&'} mint</h2>
-                <p className="spacing_p text-center mt-3" >A marketplace for the gaming community</p>
+                <p className="spacing_p text-center mt-3" >safely from verified creators and collections</p>
 
                 <div className="sr-only md:not-sr-only">
                     <VisibleInMobile />

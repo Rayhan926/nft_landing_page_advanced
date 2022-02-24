@@ -12,7 +12,7 @@ function GamingGuild() {
                 <Button text="Join our Discord!" className="via-[#5865F2] to-black text-white" startIcon={<SiDiscord />} />
             </div>
             <section style={{
-                backgroundImage: "url('/img/Decorations Benefits.png')",
+                backgroundImage: "url('/img/Decorations_Benefits.svg')",
                 backgroundSize: '100%',
                 backgroundPosition: 'top center'
             }}
@@ -25,23 +25,25 @@ function GamingGuild() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 gap-y-12 md:gap-y-16 relative text-center md:text-left px-10 md:px-0">
                             <BluryCircle className="hidden md:block bg-soft-green blur-[180px] left-8 translate-x-0" />
                             <div>
-                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-green" >Dao</h4>
+                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-yellow" >Reduced
+                                    tRansaction fee</h4>
+                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Own your GGOG token and reduce your transaction fee</p>
+                            </div>
+                            <div>
+                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-green" >Exclusisve
+                                    Whitelist spots</h4>
+                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Exclusive whitelist spots of launchpad projects.</p>
+                            </div>
+                            <div>
+                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-sky" >Dao</h4>
                                 <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Be part of the DAO and support community projects.</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-purple" >STaking</h4>
-                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Stake and earn tokens {'&'} rewards.</p>
+                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Stake and earn <span className="md:block" ></span> tokens {'&'} rewards.</p>
                             </div>
-                            <div>
-                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-yellow" >Reduced
-                                    tRansaction fee</h4>
-                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >We only list pre-screened NFT-based games and their assets.</p>
-                            </div>
-                            <div>
-                                <h4 className="text-xl font-syncopate uppercase font-bold mx-auto text-soft-sky" >Exclusisve
-                                    Whitelist spots</h4>
-                                <p className="text-white font-inter font-medium mt-2.5 mx-auto" >Exclusive whitelist spots of launchpad projects.</p>
-                            </div>
+
+
                         </div>
                     </div>
                     {/* Left Box --Start-- */}
